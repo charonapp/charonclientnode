@@ -1,0 +1,30 @@
+{
+  "name": "charonclientnode",
+  "version": "1.0.1",
+  "description": "The client side node app for the charon protocol(not to be confused with charon-node-server)",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [
+    "charon",
+    "client",
+    "protocol"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/charonapp/charonclientnode.git"
+  },
+  "author": "Charon",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@types/node-localstorage": "^1.3.0",
+    "typescript": "^4.6.3"
+  },
+  "dependencies": {
+    "axios": "^0.26.1",
+    "getmac": "^5.20.0",
+    "node-localstorage": "^2.2.1"
+  }
+}
